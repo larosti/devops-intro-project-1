@@ -11,7 +11,7 @@ set -e
 plugin_list="build-pipeline-plugin git github ghprb"
 
 plugin_dir=/var/lib/jenkins/plugins
-file_owner=jenkins.jenkins
+file_owner=jenkins:jenkins
  
 mkdir -p /var/lib/jenkins/plugins
  
